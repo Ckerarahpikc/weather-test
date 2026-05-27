@@ -31,6 +31,7 @@ function formatDay(dateStr) {
     weekday: "short",
   }).format(new Date(dateStr));
 }
+// THE ABOVE CODE HAS NOTHING TO DO WITH THE OLD OR NEW WAY OF USING REACT (JUST PROF FUNCTIONS FOR LOGIC OF THE PROJECT ITSELF)
 
 class App extends React.Component {
   state = {
