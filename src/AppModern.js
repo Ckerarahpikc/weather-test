@@ -29,6 +29,7 @@ function getWeatherIcon(wmoCode) {
   if (!arr) return "NOT FOUND";
   return icons.get(arr);
 }
+// THE ABOVE CODE HAS NOTHING TO DO WITH THE OLD OR NEW WAY OF USING REACT (JUST PROF FUNCTIONS FOR LOGIC OF THE PROJECT ITSELF)
 
 function App() {
   const [location, setLocation] = useState(
