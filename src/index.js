@@ -9,6 +9,6 @@ import AppModern from "./AppModern";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AppModern />
+    <AppModern /> /* Change this to <AppGOF /> to render the other file */
   </React.StrictMode>,
 );
